@@ -1,19 +1,4 @@
-+-----------------------+-----------------------+-----------------------+
-| ![](vertopal_1        |                       |                       |
-| e6781345a30413eb5fd95 |                       |                       |
-| 73badfcf8f/media/imag |                       |                       |
-| e1.png){width="2.4in" |                       |                       |
-| height="0.5875in"}    |                       |                       |
-|                       |                       |                       |
-| SCHOOL OF INFORMATION |                       |                       |
-| AND TECHNOLOGY        |                       |                       |
-+=======================+=======================+=======================+
-| > NAME: Brylle John   | > DATE PERFORMED:     |                       |
-| > L. Bartolome        | > 08/29/2024          |                       |
-+-----------------------+-----------------------+-----------------------+
-| > Section: IDC2       | > DATE SUBMITTED:     |                       |
-|                       | > 08/29/2024          |                       |
-+-----------------------+-----------------------+-----------------------+
+![image](https://github.com/user-attachments/assets/501893ed-571c-48ab-9994-6ce55745b02a)
 
 SYSADM1 -- Managing Services in Windows\
 Requirement:\
@@ -28,8 +13,7 @@ Services app.
 Instructions:\
 1. Open the Start menu and search for \"Services\"
 
-> ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image2.png){width="6.655555555555556in"
-> height="4.113888888888889in"}
+![image](https://github.com/user-attachments/assets/47b3aae1-973c-4b9c-ae59-265fb6116c97)
 
 2\. Familiarize yourself with the columns, including Service Name,
 Display Name, Status, and Startup type.
@@ -37,47 +21,13 @@ Display Name, Status, and Startup type.
 3\. Right-click on a service and select \"Start\", \"Stop\", or
 \"Restart\". Fill out the table below
 
-+-----------------------+-----------------------+-----------------------+
-| **Status**            | **Name of Service**   | **Screenshot**        |
-+=======================+=======================+=======================+
-| > Start               | > ActiveX Installer   | > ![](ver             |
-|                       |                       | topal_1e6781345a30413 |
-|                       |                       | eb5fd9573badfcf8f/med |
-|                       |                       | ia/image3.png){width= |
-|                       |                       | "4.266666666666667in" |
-|                       |                       | > height="            |
-|                       |                       | 3.140277777777778in"} |
-+-----------------------+-----------------------+-----------------------+
-|                       |                       |                       |
-+-----------------------+-----------------------+-----------------------+
-| > Stop                | > App Readiness       | > ![](ver             |
-|                       |                       | topal_1e6781345a30413 |
-|                       |                       | eb5fd9573badfcf8f/med |
-|                       |                       | ia/image4.png){width= |
-|                       |                       | "4.208333333333333in" |
-|                       |                       | > height="            |
-|                       |                       | 2.341666666666667in"} |
-+-----------------------+-----------------------+-----------------------+
+![image](https://github.com/user-attachments/assets/77ade0aa-98f4-43ff-9026-db7a61935d4d)
+
 
 Page **2** of **7**
 
-+-----------------------+-----------------------+-----------------------+
-| Restart               | Application           | > ![](ver             |
-|                       | Information           | topal_1e6781345a30413 |
-|                       |                       | eb5fd9573badfcf8f/med |
-|                       |                       | ia/image5.png){width= |
-|                       |                       | "4.238888888888889in" |
-|                       |                       | > height="            |
-|                       |                       | 2.433333333333333in"} |
-+=======================+=======================+=======================+
-| > Pause               | > Windows Management  | ![](ver               |
-|                       | > Instrumentation     | topal_1e6781345a30413 |
-|                       |                       | eb5fd9573badfcf8f/med |
-|                       |                       | ia/image6.png){width= |
-|                       |                       | "3.920832239720035in" |
-|                       |                       | height="              |
-|                       |                       | 3.326388888888889in"} |
-+-----------------------+-----------------------+-----------------------+
+![image](https://github.com/user-attachments/assets/c60626c0-006c-4da9-854a-9a3d37798d4a)
+
 
 4\. Select five network services, right-click to view its properties.
 Modify the startup setting to
@@ -86,30 +36,18 @@ Modify the startup setting to
 
 Page **3** of **7**
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **SS**:                 ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image7.png){width="2.8125in"   ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image8.png){width="3.249998906386702in"
-                          height="3.0in"}                                                                    height="2.9555555555555557in"}
-  ----------------------- ---------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------
-
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-> ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image9.png){width="3.0888877952755904in"
-> height="3.5625in"}
->
-> ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image10.png){width="3.179165573053368in"
-> height="3.5666655730533683in"}
+![image](https://github.com/user-attachments/assets/00d24d1e-f9d2-4fbe-b4dc-642b5ad85aac)
 
 Page **4** of **7**
 
-> ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image11.png){width="4.145833333333333in"
-> height="4.791666666666667in"}
+![image](https://github.com/user-attachments/assets/84ad4fc6-be5a-464f-a8e3-8106c272b349)
 
 5\. Explore the \"General\", \"Recovery\", and \"Log On\" tabs to
 understand additional service settings. 6. Create a batch file that will
 be added as a new service later on. Refer to the batch file code below.
 
-> ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image12.png){width="4.794444444444444in"
-> height="2.0in"}
+![image](https://github.com/user-attachments/assets/1b3cdd6e-03c3-4c17-a255-1c32364dce68)
+
 
 7\. Save the batch file in Z:\\lastname_timer.bat\
 8. Use the sc command to add timer.bat service in the command line
@@ -120,20 +58,18 @@ BatchTimerService*
 Page **5** of **7**
 
 > **Replace path_to_your_batch_file.bat with the actual path to your
-> batch file.** 9. Verify that BatchTimerService has been added to the
-> services.
->
-> **SS:**
-> ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image13.png){width="5.1777766841644794in"
-> height="0.1875in"}
->
+> batch file.** 
+9. Verify that BatchTimerService has been added to the services.
+**SS:**
+![image](https://github.com/user-attachments/assets/f58f5bde-44fb-4bc2-9964-11ec3e615733)
+
 > 10\. **Testing the Service:** Now, if you open a new command prompt,
 > you should see the timer countdown without requiring your interaction.
 > Once the timer finishes, you\'ll see the \"Timer finished!\" message.
 >
 > **SS:**
-> ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image14.png){width="2.9569444444444444in"
-> height="2.495833333333333in"}
+![image](https://github.com/user-attachments/assets/14ba97d4-f443-43c5-9208-f11973fce00d)
+
 >
 > **Rubric**
 >
