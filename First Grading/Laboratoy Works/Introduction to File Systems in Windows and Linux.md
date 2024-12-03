@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e253060e-5e05-47e3-8038-6bbf6d54677a)![image](https://github.com/user-attachments/assets/35fd17c5-a94b-4ffc-ac32-02feaf80e774)
+![image](https://github.com/user-attachments/assets/35fd17c5-a94b-4ffc-ac32-02feaf80e774)
 
 
 # SYSADM1 -- Introduction to File Systems in Windows and Linux
