@@ -8,16 +8,18 @@ Part 1: Setting Up Print Services
 
   	![image](https://github.com/user-attachments/assets/2910a6e4-e089-4355-9a90-1225f6497625)
 
-3.	Connect one client to the recently created domain
+2.	Connect one client to the recently created domain
    ![image](https://github.com/user-attachments/assets/012d679e-1cc0-4277-a9bf-6421f46bf4a4)
   	
-4.	Install Print Services Role:
+3.	Install Print Services Role:
+   
    ![image](https://github.com/user-attachments/assets/99e36709-97f3-4082-81e0-a508a930a62b)
 
-5.	Search the internet for any printer installer and convert it to iso
+4.	Search the internet for any printer installer and convert it to iso
    ![image](https://github.com/user-attachments/assets/5ab4c63d-6384-493a-97dd-2eac7e68a540)
 
-6.	Install and deploy it as network printer
+5.	Install and deploy it as network printer
+   
    ![image](https://github.com/user-attachments/assets/87733ac9-5593-47f9-9557-e3d13de712f6)
 
 
