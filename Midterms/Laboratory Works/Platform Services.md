@@ -1,19 +1,4 @@
-+-----------------------+-----------------------+-----------------------+
-| ![](vertopal_1        |                       |                       |
-| 2d758c6ffc04217b561d2 |                       |                       |
-| d90316d3b1/media/imag |                       |                       |
-| e1.png){width="2.4in" |                       |                       |
-| height="0.5875in"}    |                       |                       |
-|                       |                       |                       |
-| SCHOOL OF INFORMATION |                       |                       |
-| AND TECHNOLOGY        |                       |                       |
-+=======================+=======================+=======================+
-| > NAME: Brylle John   | > DATE PERFORMED:     | /50                   |
-| > L. Bartolome        | > 10/17/2024          |                       |
-+-----------------------+-----------------------+-----------------------+
-| > Section: IDC2       | > DATE SUBMITTED:     |                       |
-|                       | > 10/17/2024          |                       |
-+-----------------------+-----------------------+-----------------------+
+![image](https://github.com/user-attachments/assets/fce3d6a9-e3b6-4c9f-85c2-23a068c75d1e)
 
 **SYSADM1 -- Platform Services**
 
@@ -31,9 +16,8 @@ health of web applications.
 
 > 2\. From the event viewer, explore the windows log and list down its
 > major categories
->
-> ![](vertopal_12d758c6ffc04217b561d2d90316d3b1/media/image2.png){width="6.488888888888889in"
-> height="3.9583333333333335in"}
+![image](https://github.com/user-attachments/assets/c1b56d6f-acd2-4ce0-90e2-a10d873c9dcb)
+
 
 **Part 2: Filtering and Analyzing IIS Events**\
 1. Apply filter to the windows log categories to display errors for the
@@ -358,9 +342,7 @@ Page **4** of **7**
 
 Page **5** of **7**
 
-> ![](vertopal_12d758c6ffc04217b561d2d90316d3b1/media/image3.png){width="6.229166666666667in"
-> height="2.7805555555555554in"}
-
+![image](https://github.com/user-attachments/assets/8d343947-cb69-4fda-84c2-7045e068c90d)
 +-----------------------------------+-----------------------------------+
 | •                                 | > To monitor login attempts in    |
 |                                   | > Server 2012, enable auditing    |
