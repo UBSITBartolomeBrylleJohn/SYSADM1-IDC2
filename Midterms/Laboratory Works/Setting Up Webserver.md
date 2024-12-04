@@ -1,19 +1,5 @@
-+-----------------------+-----------------------+-----------------------+
-| ![](vertopal_6        |                       |                       |
-| dd38b1eeecf4983836b5c |                       |                       |
-| 383465db2d/media/imag |                       |                       |
-| e1.png){width="2.4in" |                       |                       |
-| height="0.5875in"}    |                       |                       |
-|                       |                       |                       |
-| SCHOOL OF INFORMATION |                       |                       |
-| AND TECHNOLOGY        |                       |                       |
-+=======================+=======================+=======================+
-| > NAME: Brylle John   | > DATE PERFORMED:     | /50                   |
-| > L. Bartolome        | > 10/10/24            |                       |
-+-----------------------+-----------------------+-----------------------+
-| > Section: IDC2       | > DATE SUBMITTED:     |                       |
-|                       | > 10/10/24            |                       |
-+-----------------------+-----------------------+-----------------------+
+![image](https://github.com/user-attachments/assets/bb6e8c7a-9ad8-4109-b519-13c0ab7c79d8)
+
 
 SYSADM1 -- Setting Up Webserver
 
@@ -24,10 +10,9 @@ Task Instructions:\
 1. Install IIS by adding it as a role, select necessary features,
 include monitoring tools
 
-> ![](vertopal_6dd38b1eeecf4983836b5c383465db2d/media/image2.png){width="6.5625in"
-> height="5.259722222222222in"}
+![image](https://github.com/user-attachments/assets/49f5f514-3f5c-488b-8419-1c2751647596)
 
-2\. Create a website by opening IIS Manager
+2. Create a website by opening IIS Manager
 
 +-----------------------------------+-----------------------------------+
 | > o\                              | > Right-click on the server's     |
@@ -44,8 +29,7 @@ include monitoring tools
 +===================================+===================================+
 +-----------------------------------+-----------------------------------+
 
-> ![](vertopal_6dd38b1eeecf4983836b5c383465db2d/media/image3.png){width="6.145833333333333in"
-> height="5.948611111111111in"}
+![image](https://github.com/user-attachments/assets/11d07b34-139e-4ffb-9dc3-60ec76918888)
 
 3\. Configure the Website:
 
@@ -59,20 +43,15 @@ include monitoring tools
 
 Page **2** of **5**
 
-> ![](vertopal_6dd38b1eeecf4983836b5c383465db2d/media/image4.png){width="5.759722222222222in"
-> height="3.173611111111111in"}
+![image](https://github.com/user-attachments/assets/102ff676-40a4-42f9-9d13-102a074fc06c)
 
 4\. Create a Web Page:
 
 > o Create an HTML file in the physical path you specified.
->
-> ![](vertopal_6dd38b1eeecf4983836b5c383465db2d/media/image5.png){width="3.6527777777777777in"
-> height="1.5236100174978127in"}
->
+![image](https://github.com/user-attachments/assets/7d7903df-1b27-435d-afd5-9dfd637e492e)
+
 > o Save it as default.html or your preferred name
->
-> ![](vertopal_6dd38b1eeecf4983836b5c383465db2d/media/image6.png){width="5.493055555555555in"
-> height="3.4944433508311463in"}
+![image](https://github.com/user-attachments/assets/49d47e65-b862-44cb-8c13-827bc396df4d)
 
 Page **3** of **5**
 
