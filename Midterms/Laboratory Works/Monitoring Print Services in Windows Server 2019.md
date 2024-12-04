@@ -1,19 +1,4 @@
-+-----------------------+-----------------------+-----------------------+
-| ![](vertopal_2        |                       |                       |
-| 60a23a0fb524879b2f205 |                       |                       |
-| d3049f3dac/media/imag |                       |                       |
-| e1.png){width="2.4in" |                       |                       |
-| height="0.5875in"}    |                       |                       |
-|                       |                       |                       |
-| SCHOOL OF INFORMATION |                       |                       |
-| AND TECHNOLOGY        |                       |                       |
-+=======================+=======================+=======================+
-| > NAME: Brylle John   | > DATE PERFORMED:     | /50                   |
-| > L. Bartolome        | > 09/24/2024          |                       |
-+-----------------------+-----------------------+-----------------------+
-| > Section: IDC2       | > DATE SUBMITTED:     |                       |
-|                       | > 09/24/2024          |                       |
-+-----------------------+-----------------------+-----------------------+
+![image](https://github.com/user-attachments/assets/cf4abf1d-bf63-4d34-a476-14bcfc2aae20)
 
 SYSADM1 -- Monitoring Print Services in Windows Server 2019
 
@@ -22,34 +7,24 @@ Requirement:
 • A virtual machine running Linux and Windows OS Part 1: Setting Up
 Print Services\
 1. Install and configure **print.srv** domain
+![image](https://github.com/user-attachments/assets/b7287980-bfd9-419d-80ce-45892fdc4d42)
 
-> ![](vertopal_260a23a0fb524879b2f205d3049f3dac/media/image2.png){width="6.280555555555556in"
-> height="1.8430555555555554in"}
->
 > 2\. Connect one client to the recently created domain
->
-> ![](vertopal_260a23a0fb524879b2f205d3049f3dac/media/image3.png){width="6.697222222222222in"
-> height="2.988888888888889in"}
+![image](https://github.com/user-attachments/assets/be610db8-4a1e-44e3-b6c2-2925831206da)
 
 3\. Install Print Services Role:
-
-> ![](vertopal_260a23a0fb524879b2f205d3049f3dac/media/image4.png){width="2.5in"
-> height="2.613888888888889in"}
+![image](https://github.com/user-attachments/assets/63b1960c-ef31-443e-8d9a-94240ffd9ff8)
 
 4\. Search the internet for any printer installer and convert it to iso
-
-> ![](vertopal_260a23a0fb524879b2f205d3049f3dac/media/image5.png){width="6.020833333333333in"
-> height="1.9055544619422573in"}
+![image](https://github.com/user-attachments/assets/26017cc6-7ed7-472a-9530-841432d14828)
 
 5\. Install and deploy it as network printer
+![image](https://github.com/user-attachments/assets/49959858-e852-4c0f-a7e6-1393fde0f817)
 
-> ![](vertopal_260a23a0fb524879b2f205d3049f3dac/media/image6.png){width="6.706944444444445in"
-> height="3.551388888888889in"}
 
 Page **2** of **4**
 
 Part 2: Monitoring Print Services
-
 > Objective: Familiarize yourself with monitoring tools available in
 > Windows Server 2019.
 >
