@@ -9,7 +9,6 @@ Answer the following research questions about Git, GitLab desktop and GitHub.
 3.	What is the difference between a local repository and a remote repository in Git?
 •	A local repository is a personal computer-based copy of a project's code, enabling changes and commits, while a remote repository like GitHub is a centralized server where developers can share and access changes.
 4.	What are the basic Git commands? 
- 
 •	git init (create a new Git repository)
 •	git status (check the current state of your files)
 •	git add (stage changes to be committed)
