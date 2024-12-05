@@ -18,7 +18,6 @@ Answer the following research questions about Git, GitLab desktop and GitHub.
 •	git checkout (switch between branches)
 •	git merge (combine changes from different branches)
 •	git pull (fetch changes from a remote repository and merge them locally)
- 
 5.	How do you check the status of a Git repository? 
 •	The git status command displays the current state of the repository, including the working branch and files in the staging area that have not been committed.
 6.	What is the purpose of branches in Git, and how do you create and switch between them?
@@ -28,7 +27,6 @@ Answer the following research questions about Git, GitLab desktop and GitHub.
 8.	How do you connect a local Git repository to a GitLab or GitHub repository?
 •	To connect a local Git repository to a GitLab or GitHub repository, create a new repository, add the remote repository URL to your local project, and push your local commits to the remote repository using the "git push" command.
 9.	What are the steps to collaborate with others using GitLab or GitHub?	
- 
 •	Review collaboration policy in the project
 •	Fork the repo
 •	Clone forked repo
@@ -42,7 +40,6 @@ Answer the following research questions about Git, GitLab desktop and GitHub.
 11.	What is a pull request, and why is it used in GitHub?
 •	A pull request is a proposal to merge changes from one branch into another, allowing collaborators to review and discuss the proposed changes before integrating them into the main codebase.
 12.	What are some best practices for writing commit messages?
- 
 1.	Specify the type of commit:
 •	feat: The new feature you're adding to a particular application
 •	fix: A bug fix
