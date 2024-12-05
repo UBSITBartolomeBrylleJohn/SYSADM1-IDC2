@@ -66,13 +66,21 @@ Answer the following research questions about Git, GitLab desktop and GitHub.
 
 Sources:
 •	Worsley, S. (2022, April 7). What is Git? - The Complete Guide to Git. Datacamp.com; DataCamp. https://www.datacamp.com/blog/all-about-git
+
 •	Git - Recording Changes to the Repository. (2020). Git-Scm.com. https://git-scm.com/book/ms/v2/Git-Basics-Recording-Changes-to-the-Repository
+
 •	10 Git Commands Every Developer Should Know. (2020, January 19). FreeCodeCamp.org. https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/
+
 •	Basic Git Commands You Need to Know | Simplilearn. (n.d.). Simplilearn.com. https://www.simplilearn.com/tutorials/git-tutorial/git-commands
+
 •	GeeksforGeeks. (2024b, July 23). Difference between GitLab and GitHub. GeeksforGeeks. https://www.geeksforgeeks.org/difference-between-gitlab-and-github/
+
 •	McKenzie, C. (2024). How to git push an existing project to GitLab. Theserverside.com; TheServerSide.com. https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-add-and-push-an-existing-project-to-GitLab
+
 •	How to collaborate with a GitHub project. (n.d.). Gist. https://gist.github.com/neklaf/9002d3acccf6b6e448db5c4c4e8764c0
+
 •	About pull requests - GitHub Docs. (n.d.). GitHub Docs. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+
 •	Ayodeji, B. (2024, September 10). How to write good commit Messages: A practical Git guide. freeCodeCamp.org. https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
 
 
