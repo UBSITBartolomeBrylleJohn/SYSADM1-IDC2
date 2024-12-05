@@ -1,8 +1,5 @@
 ![image](https://github.com/user-attachments/assets/ecff4452-81f9-4f7c-9475-f41575eb5e3a)
 
-SCHOOL OF INFORMATION AND TECHNOLOGY
-NAME: Brylle John L. Bartolome	DATE PERFORMED: 11/21/2024	 
-Section: IDC2	DATE SUBMITTED: 11/21/2024	
 WINDOWS ADMINISTRATIVE TOOLS
 Read the case study presented below and answer the questions after reading the case study.
 Cybersecurity Resilience: TechGuard Solutions' Recovery Disk Strategy in Action
