@@ -52,16 +52,19 @@ Answer the following research questions about Git, GitLab desktop and GitHub.
 •	test: Everything related to testing
 •	docs: Everything related to documentation
 •	chore: Regular code maintenance.[ You can also use emojis to represent commit types]
-2.	Separate the subject from the body with a blank line
-3.	Your commit message should not contain any whitespace errors
-4.	Remove unnecessary punctuation marks
-5.	Do not end the subject line with a period
-6.	Capitalize the subject line and each paragraph
-7.	Use the imperative mood in the subject line
-8.	Use the body to explain what changes you have made and why you made them.
-9.	Do not assume the reviewer understands what the original problem was, ensure you add it.
-10.	Do not think your code is self-explanatory
-11.	Follow the commit convention defined by your team
+3.	Separate the subject from the body with a blank line
+4.	Your commit message should not contain any whitespace errors
+5.	Remove unnecessary punctuation marks
+6.	Do not end the subject line with a period
+7.	Capitalize the subject line and each paragraph
+8.	Use the imperative mood in the subject line
+9.	Use the body to explain what changes you have made and why you made them.
+10.	Do not assume the reviewer understands what the original problem was, ensure you add it.
+11.	Do not think your code is self-explanatory
+12.	Follow the commit convention defined by your team
+
+
+
  
 
 Sources:
