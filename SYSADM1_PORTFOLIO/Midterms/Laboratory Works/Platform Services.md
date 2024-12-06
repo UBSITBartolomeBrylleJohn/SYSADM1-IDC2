@@ -19,168 +19,22 @@ health of web applications.
 ![image](https://github.com/user-attachments/assets/c1b56d6f-acd2-4ce0-90e2-a10d873c9dcb)
 
 
-**Part 2: Filtering and Analyzing IIS Events**\
-1. Apply filter to the windows log categories to display errors for the
-past 12 hours.
+Part 2: Filtering and Analyzing IIS Events
+   1. Apply filter to the windows log categories to display errors for the past 12 hours.
+   2. Identify Critical Events or recurring events. 
+   3. Analyze the Events:
+        -For each critical or recurring event, record the following details:
+                -Event ID
+                -Source
+                -Timestamp
+                -Description
 
-> 2\. **Identify Critical Events** or recurring events.
->
-> 3\. **Analyze the Events**:
+![image](https://github.com/user-attachments/assets/87c16969-25e4-4f2c-96a8-d5841afcf1b4)
 
-+-----------------------+-----------------------+-----------------------+
-| o                     | > For each critical   |                       |
-|                       | > or recurring event, |                       |
-|                       | > **record the        |                       |
-|                       | > following           |                       |
-|                       | > details**:          |                       |
-+=======================+=======================+=======================+
-|                       |                      | > **Event ID**        |
-+-----------------------+-----------------------+-----------------------+
-|                       |                      | > **Source**          |
-+-----------------------+-----------------------+-----------------------+
-|                       |                      | > **Timestamp**       |
-+-----------------------+-----------------------+-----------------------+
-|                       |                      | > **Description**     |
-+-----------------------+-----------------------+-----------------------+
-
-+-----------------+-----------------+-----------------+-----------------+
-| > **EVENT ID**  | > **SOURCE**    | > **TIMESTAMP** | >               |
-|                 |                 |                 | **DESCRIPTION** |
-+=================+=================+=================+=================+
-| > 8198          | > Security-SSP  | > 10/17/2024    | > License       |
-|                 |                 | > 9:04:05 AM    | > Activation\   |
-|                 |                 |                 | > (             |
-|                 |                 |                 | slui.exe)failed |
-|                 |                 |                 | > with the      |
-|                 |                 |                 | > following     |
-|                 |                 |                 | > error code:   |
-+-----------------+-----------------+-----------------+-----------------+
-| > 8198          | > Security-SSP  | > 10/17/2024    | > License       |
-|                 |                 | > 9:02:42 AM    | > Activation\   |
-|                 |                 |                 | > (             |
-|                 |                 |                 | slui.exe)failed |
-|                 |                 |                 | > with the      |
-|                 |                 |                 | > following     |
-|                 |                 |                 | > error code:   |
-+-----------------+-----------------+-----------------+-----------------+
-| > 8193          | > VSS           | > 10/17/2024    | > Volume Shadow |
-|                 |                 | > 9:02:26 AM    | > Copy Service  |
-|                 |                 |                 | > error.        |
-+-----------------+-----------------+-----------------+-----------------+
-| > 8198          | > Security-SSP  | > 10/17/2024    | > License       |
-|                 |                 | > 8:46:09 AM    | > Activation\   |
-|                 |                 |                 | > (             |
-|                 |                 |                 | slui.exe)failed |
-|                 |                 |                 | > with the      |
-|                 |                 |                 | > following     |
-|                 |                 |                 | > error code:   |
-+-----------------+-----------------+-----------------+-----------------+
-| > 8198          | > Security-SSP  | > 10/17/2024    | > License       |
-|                 |                 | > 8:45:17 AM    | > Activation\   |
-|                 |                 |                 | > (             |
-|                 |                 |                 | slui.exe)failed |
-|                 |                 |                 | > with the      |
-|                 |                 |                 | > following     |
-|                 |                 |                 | > error code:   |
-+-----------------+-----------------+-----------------+-----------------+
-| > 6             | > Certificat    | > 10/17/2024    | > Automatic     |
-|                 | eServicesClient | > 8:44:55 AM    | > certificate\  |
-|                 | -AutoEnrollment |                 | > enrollment    |
-|                 |                 |                 | > for local\    |
-|                 |                 |                 | > system\       |
-|                 |                 |                 | > fai           |
-|                 |                 |                 | led(0x8007054b) |
-|                 |                 |                 | > The specified |
-|                 |                 |                 | > domain either |
-|                 |                 |                 | > does not      |
-|                 |                 |                 | > exist or      |
-|                 |                 |                 | > could not be  |
-|                 |                 |                 | > contacted.    |
-+-----------------+-----------------+-----------------+-----------------+
-| > 67            | > Certif        | > 10/17/2024    | > Automatic     |
-|                 | icateServicesCl | > 8:44:55 AM    | > certificate\  |
-|                 | ient-CertEnroll |                 | > enrollment    |
-|                 |                 |                 | > for local\    |
-|                 |                 |                 | > system\       |
-|                 |                 |                 | > fai           |
-|                 |                 |                 | led(0x8007054b) |
-|                 |                 |                 | > The specified |
-|                 |                 |                 | > domain either |
-|                 |                 |                 | > does not      |
-|                 |                 |                 | > exist or      |
-|                 |                 |                 | > could not be  |
-|                 |                 |                 | > contacted.    |
-+-----------------+-----------------+-----------------+-----------------+
-| > 68            | > Certif        | > 10/17/2024    | > Automatic     |
-|                 | icateServicesCl | > 8:44:55 AM    | > certificate\  |
-|                 | ient-CertEnroll |                 | > enrollment    |
-|                 |                 |                 | > for local\    |
-|                 |                 |                 | > system in     |
-|                 |                 |                 | >               |
-|                 |                 |                 |  authentication |
-|                 |                 |                 | > to policy     |
-|                 |                 |                 | > servers with  |
-|                 |                 |                 | > ID.           |
-+-----------------+-----------------+-----------------+-----------------+
 
 Page **2** of **7**
 
-+-----------------+-----------------+-----------------+-----------------+
-| > 70            | > Certif        | > 10/17/2024    | > Certificate   |
-|                 | icateServicesCl | > 8:44:55 AM    | > enrollment    |
-|                 | ient-CertEnroll |                 | > for local     |
-|                 |                 |                 | > system        |
-|                 |                 |                 | > failed\       |
-|                 |                 |                 | > because no    |
-|                 |                 |                 | > valid policy  |
-|                 |                 |                 | > can be        |
-|                 |                 |                 | > obtained      |
-|                 |                 |                 | > from\         |
-|                 |                 |                 | > servers with  |
-|                 |                 |                 | > ID            |
-+=================+=================+=================+=================+
-| > 8198          | > Security-SSP  | > 10/17/2024    | > License       |
-|                 |                 | > 8:44:54 AM    | > Activation\   |
-|                 |                 |                 | > (             |
-|                 |                 |                 | slui.exe)failed |
-|                 |                 |                 | > with the      |
-|                 |                 |                 | > following     |
-|                 |                 |                 | > error code:   |
-+-----------------+-----------------+-----------------+-----------------+
-| > 16387         | > Security-SSP  | > 10/17/2024    | > Failed to run |
-|                 |                 | > 8:44:54 AM    | > task          |
-+-----------------+-----------------+-----------------+-----------------+
-| > 1008          | > Perflib       | > 10/17/2024    | > The Open      |
-|                 |                 | > 8:44:29 AM    | > Procedure for |
-|                 |                 |                 | > service       |
-|                 |                 |                 | > "BITS" in     |
-|                 |                 |                 | > DLL\          |
-|                 |                 |                 | > failed        |
-+-----------------+-----------------+-----------------+-----------------+
-| > 8198          | > Security-SSP  | > 10/17/2024    | > License       |
-|                 |                 | > 8:40:38 AM    | > Activation\   |
-|                 |                 |                 | > (             |
-|                 |                 |                 | slui.exe)failed |
-|                 |                 |                 | > with the      |
-|                 |                 |                 | > following     |
-|                 |                 |                 | > error code:   |
-+-----------------+-----------------+-----------------+-----------------+
-| > 8198          | > Security-SSP  | > 10/17/2024    | > License       |
-|                 |                 | > 8:39:31 AM    | > Activation\   |
-|                 |                 |                 | > (             |
-|                 |                 |                 | slui.exe)failed |
-|                 |                 |                 | > with the      |
-|                 |                 |                 | > following     |
-|                 |                 |                 | > error code:   |
-+-----------------+-----------------+-----------------+-----------------+
-| > 8198          | > Security-SSP  | > 10/17/2024    | > License       |
-|                 |                 | > 8:39:31 AM    | > Activation\   |
-|                 |                 |                 | > (             |
-|                 |                 |                 | slui.exe)failed |
-|                 |                 |                 | > with the      |
-|                 |                 |                 | > following     |
-|                 |                 |                 | > error code:   |
-+-----------------+-----------------+-----------------+-----------------+
+![image](https://github.com/user-attachments/assets/c6c236a4-63e4-4cfe-8b98-554bfae9fb13)
 
 **Part 3: Troubleshooting and Solution Development**
 
@@ -237,89 +91,16 @@ Page **3** of **7**
 > failed\" at 8:44:29 AM.
 
 **3.** Root Causes and Solutions
+![image](https://github.com/user-attachments/assets/e2f78a81-ee36-46a6-aad5-8214193e942c)
 
 +-----------------------------------+-----------------------------------+
-| •                                 | > Describe the likely cause of    |
-|                                   | > each error and how you would    |
-|                                   | > fix it.                         |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-+-----------------------+-----------------------+-----------------------+
-| > **Event ID**        | > **Root Causes**     | > **Solutions**       |
-+=======================+=======================+=======================+
-| > Event ID 8198       | > This error usually  | > Verify the internet |
-|                       | > indicate issues     | > connection and      |
-|                       | > with the Windows    | > ensure that the     |
-|                       | > activation service, | > correct product key |
-|                       | > which might be the  | > is being used.      |
-|                       | > result of poor      | >                     |
-|                       | > network access or   | > Running the         |
-|                       | > incorrect license   | > command\            |
-|                       | > information.        | > slmgr.vbs /ato in   |
-|                       |                       | > an elevated command |
-|                       |                       | > prompt may help     |
-|                       |                       | > activation.         |
-+-----------------------+-----------------------+-----------------------+
-| > Event ID 8193       | > This error is       | > To fix the system   |
-|                       | > usually caused by   | > writer error,       |
-|                       | > permissions         | > either clean up     |
-|                       | > difficulties or     | > the\                |
-|                       | > insufficient disk   | > T                   |
-|                       | > space for shadow    | emporaryInternetFiles |
-|                       | > copies. It may also | > folder or identify  |
-|                       | > happen if the VSS   | > the problematic\    |
-|                       | > service isn\'t      | > application writer  |
-|                       | > working properly.   | > by analyzing its    |
-|                       |                       | > metadata and        |
-|                       |                       | > reducing its        |
-|                       |                       | > components or by    |
-|                       |                       | > running the         |
-|                       |                       | > command:\           |
-|                       |                       | > diskshadow /l       |
-|                       |                       | >                     |
-|                       |                       | > C:\\Metadata.txt    |
-|                       |                       | >                     |
-|                       |                       | > list writers        |
-|                       |                       | > detailed            |
-|                       |                       | >                     |
-|                       |                       | > Exit                |
-+-----------------------+-----------------------+-----------------------+
+![image](https://github.com/user-attachments/assets/85ed1d16-b9da-40b4-a27e-dc6644979e29)
 
 Page **4** of **7**
 
-+-----------------------+-----------------------+-----------------------+
-| Event ID 6            | > This error          | > To configure RRAS   |
-|                       | > indicates the       | > for SSL\            |
-|                       | > system was unable   | > offloading, install |
-|                       | > to contact the      | > the same SSL        |
-|                       | > domain controller,  | > certificate on both |
-|                       | > or that the domain  | > the VPN\            |
-|                       | > does not exist.     | > server and load     |
-|                       |                       | > balancer.           |
-|                       |                       | >                     |
-|                       |                       | > Then, use the RRAS\ |
-|                       |                       | > management console  |
-|                       |                       | > or the\             |
-|                       |                       | > Enable-SstpOffload  |
-|                       |                       | > PowerShell script   |
-|                       |                       | > to set the correct\ |
-|                       |                       | > certificate hash    |
-|                       |                       | > and enable\         |
-|                       |                       | > HTTP for SSL        |
-|                       |                       | > offloading.         |
-+-----------------------+-----------------------+-----------------------+
-| > Event ID 1008       | > This error          | > Verify that         |
-|                       | > indicates a failure | > network\            |
-|                       | > in the Background   | > performance         |
-|                       | > Intelligent         | > counters are\       |
-|                       | > Transfer Service    | > being collected and |
-|                       | > (BITS), which might | > displayed correctly |
-|                       | > be caused by of     | > using Performance   |
-|                       | > service             | > Monitor or the      |
-|                       | > misconfiguration or | > typeperf\           |
-|                       | > corruption.         | > command.            |
-+-----------------------+-----------------------+-----------------------+
+![image](https://github.com/user-attachments/assets/46875584-e73a-49d1-aa0c-116b33c63491)
+
 
 **Part 4: Reflection Questions**
 
@@ -373,97 +154,9 @@ administrators?
 
 Page **6** of **7**
 
-Grading Rubric
+![image](https://github.com/user-attachments/assets/639f1956-6cf0-479f-bab2-7af254fbd714)
+![image](https://github.com/user-attachments/assets/21a41825-ea80-485f-bcf0-bbcf78b3a82d)
 
-+---------+---------+---------+---------+---------+---------+---------+
-| > **Cri | >       | > *     | > **N   |         | > *     | > **P   |
-| teria** |  **Exce | *Good** | eeds**\ |         | *Poor** | oints** |
-|         | llent** |         | > *     |         |         |         |
-|         |         |         | *Improv |         |         |         |
-|         |         |         | ement** |         |         |         |
-+=========+=========+=========+=========+=========+=========+=========+
-| > **Log | > Ide   | > Ide   | > Ide   |         | > Fails | /10     |
-| > Ana   | ntifies | ntifies | ntifies |         | > to    |         |
-| lysis** | > all   | > most  | > some  |         | > i     |         |
-|         | > key   | > key   | >       |         | dentify |         |
-|         | >       | >       | events, |         | > key   |         |
-|         |  events |  events | > but   |         | >       |         |
-|         | > (503, | > with  | > with  |         |  events |         |
-|         | > 404,  | > minor | > inc   |         | > or\   |         |
-|         | > 500,  | >       | omplete |         | > pr    |         |
-|         | > etc.) |  errors | > or\   |         | ovides\ |         |
-|         | > with\ | > in    | > in    |         | > in    |         |
-|         | > a     | > d     | correct |         | correct |         |
-|         | ccurate | etails. | > d     |         | > d     |         |
-|         | >       |         | etails. |         | etails. |         |
-|         |  event\ |         |         |         |         |         |
-|         | > d     |         |         |         |         |         |
-|         | etails. |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > **T   | > P     | > So    | > So    |         | > So    | /10     |
-| roubles | roposes | lutions | lutions |         | lutions |         |
-| hooting | > l     | > are\  | > are\  |         | > are   |         |
-| > Solu  | ogical, | >       | > s     |         | >       |         |
-| tions** | > eff   |  mostly | omewhat |         | unclear |         |
-|         | ective\ | >       | > vague |         | > or\   |         |
-|         | > so    | correct | > or    |         | > inc   |         |
-|         | lutions | > but   | > inco  |         | orrect. |         |
-|         | > to    | > miss  | mplete. |         |         |         |
-|         | > all\  | > some  |         |         |         |         |
-|         | > ide   | > key\  |         |         |         |         |
-|         | ntified | >       |         |         |         |         |
-|         | >       | points. |         |         |         |         |
-|         | issues. |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > *     | >       | >       | >       |         | >       | /10     |
-| *Report | Well-or |  Report |  Report |         |  Report |         |
-| > St    | ganized | > is    | > is\   |         | > is\   |         |
-| ructure | >       | >       | > disor |         | >       |         |
-| > &     |  report |  mostly | ganized |         | unclear |         |
-| > Cl    | > with  | > or    | > or    |         | > or\   |         |
-| arity** | > all\  | ganized | >       |         | > inco  |         |
-|         | > s     | > with\ | missing |         | mplete. |         |
-|         | ections | > minor | > se    |         |         |         |
-|         | >       | > for   | ctions. |         |         |         |
-|         | clearly | matting |         |         |         |         |
-|         | > com   | >       |         |         |         |         |
-|         | pleted. | issues. |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > **    | > Pr    | > R     |         | > R     | > Fails | /10     |
-| Recomme | ovides\ | ecommen |         | ecommen | > to    |         |
-| ndation | > thoug | dations |         | dations | >       |         |
-| > s for | htful,\ | > are   |         | > are   | provide |         |
-| > Monit | > pro   | > r     |         | > vague | > re    |         |
-| oring** | active\ | elevant |         | > or\   | levant\ |         |
-|         | >       | > but   |         | > inco  | >       |         |
-|         | recomme | > lack  |         | mplete. | recomme |         |
-|         | ndation | >       |         |         | ndation |         |
-|         | > s to  |  depth. |         |         | > s.    |         |
-|         | > p     |         |         |         |         |         |
-|         | revent\ |         |         |         |         |         |
-|         | >       |         |         |         |         |         |
-|         |  future |         |         |         |         |         |
-|         | >       |         |         |         |         |         |
-|         | issues. |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > *     | > A     | > Parti |         | > M     | > Did   | /10     |
-| *Partic | ctively | cipated |         | inimal\ | > not\  |         |
-| ipation | >       | > but   |         | > p     | > parti |         |
-| > &     | engaged | > r     |         | articip | cipate\ |         |
-| > E     | > in    | equired |         | ation,\ | >       |         |
-| ffort** | > the   | > some  |         | >       |  meanin |         |
-|         | > act   | > gu    |         |  needed | gfully. |         |
-|         | ivity,\ | idance. |         | > sign  |         |         |
-|         | > fo    |         |         | ificant |         |         |
-|         | llowed\ |         |         | > help. |         |         |
-|         | >       |         |         |         |         |         |
-|         |  instru |         |         |         |         |         |
-|         | ctions\ |         |         |         |         |         |
-|         | > thor  |         |         |         |         |         |
-|         | oughly. |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| **      |         |         |         |         |         | **/50** |
-| Score** |         |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
+
 
 Page **7** of **7**
