@@ -72,9 +72,6 @@ Page **5** of **7**
 
 >
 > **Rubric**
->
-> ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image15.png){width="3.1055555555555556in"
-> height="2.272221128608924in"}
 
 ![alt text](image.png)
 
