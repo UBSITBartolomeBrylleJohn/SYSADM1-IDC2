@@ -120,7 +120,6 @@ management and importing repositories from Google Code and Bitbucket.
 
 
  
-
 Sources:
 •	Worsley, S. (2022, April 7). What is Git? - The Complete Guide to Git. Datacamp.com; DataCamp. https://www.datacamp.com/blog/all-about-git
 
