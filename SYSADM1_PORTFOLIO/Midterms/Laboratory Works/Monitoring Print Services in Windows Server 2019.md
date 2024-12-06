@@ -78,18 +78,13 @@ Part 2: Monitoring Print Services
 > o Analyze the collected data (e.g., print volume, errors, user
 > activity).
 >
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/63a20cd0-a72a-45d7-9d53-81600ff4c521)
 
-Page **3** of **4**
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/d738d05c-3770-40f8-89f3-981475f7a86f)
 
-> **Part 2: Monitoring Print Services**
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/49f9f4aa-2580-46e0-bf4a-9ee2d6862e7e)
 
-> **Part 3: Exploring Third-Party Tools**
-
-![alt text](image-3.png)
 
 Page **4** of **4**
