@@ -76,97 +76,10 @@ Page **5** of **7**
 > ![](vertopal_1e6781345a30413eb5fd9573badfcf8f/media/image15.png){width="3.1055555555555556in"
 > height="2.272221128608924in"}
 
-+-------------+-------------+-------------+-------------+-------------+
-| *           | **Excellent | **Good      | >           | **Uns       |
-| *Criteria** | (10)**      | (7)**       |  **Needs**\ | atisfactory |
-|             |             |             | > **        | (1)**       |
-|             |             |             | Improvement |             |
-|             |             |             | > (3)**     |             |
-+=============+=============+=============+=============+=============+
-| > Un        | > D         | > Shows a   | > Has a     | > Shows     |
-| derstanding | emonstrates | > solid\    | > basic\    | > little or |
-| > of        | > a deep    | > un        | > un        | > no        |
-| > Services  | > un        | derstanding | derstanding | > un        |
-|             | derstanding | > of\       | > of\       | derstanding |
-|             | > of the    | > services, | > services, | > of        |
-|             | > concept   | > but may   | > but may\  | > services. |
-|             | > of        | > lack some | > struggle  |             |
-|             | > services, | > depth in  | > with      |             |
-|             | > their     | > specific  | > specific  |             |
-|             | > roles,    | > areas.    | > concepts. |             |
-|             | > and their |             |             |             |
-|             | >           |             |             |             |
-|             |  importance |             |             |             |
-|             | > in\       |             |             |             |
-|             | > Windows.  |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| > Service\  | > S         | > De        | > Can       | > Struggles |
-| >           | uccessfully | monstrates\ | > perform   | > to        |
-|  Management | > starts,   | >           | > basic     | > perform   |
-| > Skills    | > stops,    | proficiency | > service\  | > even      |
-|             | > restarts, | > in\       | >           | > basic     |
-|             | > and       | > managing  |  management | > service   |
-|             | >           | > services, | > tasks,    | >           |
-|             |  configures | > but may   | > but may   |  management |
-|             | > services  | > encounter | > need\     | > tasks.    |
-|             | > using the | > minor     | >           |             |
-|             | > Services  | > di        |  assistance |             |
-|             | > app.      | fficulties. | > or\       |             |
-|             |             |             | > guidance. |             |
-+-------------+-------------+-------------+-------------+-------------+
-| > Custom    | > S         | > Can       | > Has       | Cannot      |
-| > Service   | uccessfully | > create a\ | > limited\  | create a    |
-| > Creation  | > creates   | > custom    | >           | custom      |
-|             | > and       | > service,  |  experience | service.    |
-|             | > manages   | > but may   | > with      |             |
-|             | > a\        | >           | > creating  |             |
-|             | > custom    |  encounter\ | > custom    |             |
-|             | > service   | > minor     | > services. |             |
-|             | > using the | > d         |             |             |
-|             | >           | ifficulties |             |             |
-|             | appropriate | > or        |             |             |
-|             | > tools and | > require   |             |             |
-|             | >           | >           |             |             |
-|             | techniques. | assistance. |             |             |
-+-------------+-------------+-------------+-------------+-------------+
+![alt text](image.png)
 
 Page **6** of **7**
 
-+-------------+-------------+-------------+-------------+-------------+
-| > Prob      | > D         | > Can       | > May       | > Struggles |
-| lem-Solving | emonstrates | > e         | > require\  | > to\       |
-|             | > strong    | ffectively\ | >           | > t         |
-|             | > prob      | > t         |  assistance | roubleshoot |
-|             | lem-solving | roubleshoot | > to\       | > and       |
-|             | > skills    | > and\      | > t         | > resolve   |
-|             | > when      | > resolve   | roubleshoot | > issues.   |
-|             | > en        | > most      | > some      |             |
-|             | countering\ | > issues    | > issues.   |             |
-|             | >           | > related   |             |             |
-|             |  challenges | > to        |             |             |
-|             | > or        | > service\  |             |             |
-|             | > errors.   | >           |             |             |
-|             |             | management. |             |             |
-+=============+=============+=============+=============+=============+
-| > Do        | > Provides  | > Documents | > Provides  | > Does not  |
-| cumentation | > clear     | > the lab   | > basic\    | > provide\  |
-| > and       | > and\      | >           | > doc       | > any       |
-| > Reporting | > concise\  | activities\ | umentation, | > do        |
-|             | > do        | >           | > but may   | cumentation |
-|             | cumentation | adequately, | > be        | > or        |
-|             | > of the    | > but\      | > d         | >           |
-|             | > lab       | > may lack  | isorganized |  reporting. |
-|             | >           | > some\     | > or        |             |
-|             | activities, | > detail or | >           |             |
-|             | > including | > clarity.  | incomplete. |             |
-|             | > relevant  |             |             |             |
-|             | >           |             |             |             |
-|             | screenshots |             |             |             |
-|             | > and       |             |             |             |
-|             | > ob        |             |             |             |
-|             | servations. |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| **Score:**  | > **/50**   |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
+![alt text](image-1.png)
 
 Page **7** of **7**
