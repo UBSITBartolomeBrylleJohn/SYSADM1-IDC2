@@ -81,12 +81,15 @@ Part 2: Monitoring Print Services
 ![alt text](image.png)
 
 Page **3** of **4**
+
 ![alt text](image-1.png)
 
 > **Part 2: Monitoring Print Services**
+
 ![alt text](image-2.png)
 
 > **Part 3: Exploring Third-Party Tools**
+
 ![alt text](image-3.png)
 
 Page **4** of **4**
