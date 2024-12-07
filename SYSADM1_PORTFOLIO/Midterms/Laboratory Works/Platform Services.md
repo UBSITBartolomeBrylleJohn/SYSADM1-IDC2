@@ -38,59 +38,48 @@ Page **2** of **7**
 
 **Part 3: Troubleshooting and Solution Development**
 
-> 1\. Review the logs and check for recurring errors.
+ 1\. Review the logs and check for recurring errors.
 >
-> 2\. Is there a specific time or pattern to these errors?
+ 2\. Is there a specific time or pattern to these errors?
 >
-> Event ID 8198, indicating potential security breaches, logged multiple
-> times between 8:39 AM and 9:04 AM. Multiple certificate-related errors
-> occurred simultaneously at 8:44:55 AM, indicating systemic issues.
-> Volume Shadow Copy Service error recorded at 9:02:26 AM, indicating
-> interconnected issues.
+ Event ID 8198, indicating potential security breaches, logged multiple
+times between 8:39 AM and 9:04 AM. Multiple certificate-related errors
+occurred simultaneously at 8:44:55 AM, indicating systemic issues.
+Volume Shadow Copy Service error recorded at 9:02:26 AM, indicating
+interconnected issues.
 >
-> 3\. Draft a Troubleshooting Report:
+3\. Draft a Troubleshooting Report:
 > 
->    o Based on the events found, create a short report with the following sections:
+   o Based on the events found, create a short report with the following sections:
 +-----------------------------------+-----------------------------------+
 
 **Report Structure**
 
 **1.** Overview
 
-> • A brief summary of the issue and scope of your analysis.
+• A brief summary of the issue and scope of your analysis.
 >
-> The Monitoring was done on October 17, 2024. It focuses on identifying
-> critical web service metrics and recurring errors that may indicate
-> potential security breaches and systemic issues. Event ID 8198,
-> certificate-related problems, and a Volume Shadow Copy Service error
-> are among the notable occurrences.
+The Monitoring was done on October 17, 2024. It focuses on identifying critical web service metrics and recurring errors that may indicate potential security breaches and systemic issues. Event ID 8198, certificate-related problems, and a Volume Shadow Copy Service error are among the notable occurrences.
 
 Page **3** of **7**
 
 **2.** Key Findings
+• List the critical events you found. Example:
+>
+  o **Event ID 503**: Application pool stopped at 10:05 AM.
 
-> • List the critical events you found. Example:
->
-> o **Event ID 503**: Application pool stopped at 10:05 AM.
->
-> o **Event ID 404**: Page not found error at 11:15 AM.
->
-> 1\. **Event ID 8198**: Multiple occurrences of \"License Activation
-> (slui.exe) failed with the following error code\" at various
-> timestamps throughout the morning.
->
-> 2\. **Event ID 8193**:\"Volume Shadow Copy Service error\" logged at
-> 9:02:26 AM. 3. **Event ID 6**:\"Automatic certificate enrollment for
-> local system failed (0x8007054b)\" at 8:44:55 AM.
->
-> 4\. **Event ID 1008:\"**The Open Procedure for service \'BITS\' in DLL
-> failed\" at 8:44:29 AM.
+  o **Event ID 404**: Page not found error at 11:15 AM.
+
+1. **Event ID 8198**: Multiple occurrences of \"License Activation (slui.exe) failed with the following error code\" at various timestamps throughout the morning.
+
+2. **Event ID 8193**:\"Volume Shadow Copy Service error\" logged at 9:02:26 AM. 3. **Event ID 6**:\"Automatic certificate enrollment for local system failed (0x8007054b)\" at 8:44:55 AM.
+
+3. **Event ID 1008:\"**The Open Procedure for service \'BITS\' in DLL failed\" at 8:44:29 AM.
 
 **3.** Root Causes and Solutions
 
 ![image](https://github.com/user-attachments/assets/e2f78a81-ee36-46a6-aad5-8214193e942c)
 
-+-----------------------------------+-----------------------------------+
 
 ![image](https://github.com/user-attachments/assets/85ed1d16-b9da-40b4-a27e-dc6644979e29)
 
@@ -101,14 +90,11 @@ Page **4** of **7**
 
 **Part 4: Reflection Questions**
 
-> 1\. What are the most common causes of a **503 Service Unavailable**
-> error?
-> 
->     A 503 error is often caused by server overload, maintenance, misconfigured settings, application
+1. What are the most common causes of a **503 Service Unavailable** error?
+    A 503 error is often caused by server overload, maintenance, misconfigured settings, application
 layer issues, and network problems preventing communication with other services.
 
-> 2\. How would you **monitor login attempts** to detect potential
-> security threats?
+2. How would you **monitor login attempts** to detect potential security threats?
 
 Page **5** of **7**
 
@@ -118,7 +104,7 @@ Page **5** of **7**
 then check the Security event log for unsuccessful logins. This will give useful information for
 detecting possible dangers such as brute-force or illegal access.
 
-3\. Why is **monitoring logs** in Event Viewer important for
+3. Why is **monitoring logs** in Event Viewer important for
 
 administrators?
     Event Viewer logs are important for administrators to monitor security events, detect unauthorized
