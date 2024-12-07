@@ -97,11 +97,9 @@ layer issues, and network problems preventing communication with other services.
 
 Page **5** of **7**
 
-![image](https://github.com/user-attachments/assets/8d343947-cb69-4fda-84c2-7045e068c90d)
-
-   To monitor login attempts in Server 2012, enable auditing for security events in the Security Policy
-then check the Security event log for unsuccessful logins. This will give useful information for
-detecting possible dangers such as brute-force or illegal access.
+   ![image](https://github.com/user-attachments/assets/8d343947-cb69-4fda-84c2-7045e068c90d)
+   
+   To monitor login attempts in Server 2012, enable auditing for security events in the Security Policy then check the Security event       log for unsuccessful logins. This will give useful information for detecting possible dangers such as brute-force or illegal access.
 
 3. Why is **monitoring logs** in Event Viewer important for administrators?
    
