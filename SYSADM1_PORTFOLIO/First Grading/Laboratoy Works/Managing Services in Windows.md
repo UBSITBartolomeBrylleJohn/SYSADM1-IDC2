@@ -64,10 +64,10 @@ Page **5** of **7**
 
 **Rubric**
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/89fe6b8e-c389-4dfd-a5d8-eca321fe376a)
 
 Page **6** of **7**
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/f66cbf92-3d52-47e5-a8b4-7b716babee5a)
 
 Page **7** of **7**
