@@ -6,16 +6,14 @@
 
 • A virtual machine running Windows Server\
 **Objective/s:**\
-To analyze IIS logs in the Event Viewer to identify critical web service
-metrics, understand common error codes, and learn how to monitor the
-health of web applications.
+To analyze IIS logs in the Event Viewer to identify critical web service metrics, understand common error codes, and learn how to monitor the health of web applications.
 
 **Instructions**\
 **Part 1: Opening Event Viewer and Loading Logs**\
-1. Access the event viewer in the server.
+1\. Access the event viewer in the server.
+   
+2\. From the event viewer, explore the windows log and list down its major categories
 
-> 2\. From the event viewer, explore the windows log and list down its
-> major categories
 ![image](https://github.com/user-attachments/assets/c1b56d6f-acd2-4ce0-90e2-a10d873c9dcb)
 
 
@@ -42,11 +40,7 @@ Page **2** of **7**
 >
  2\. Is there a specific time or pattern to these errors?
 >
- Event ID 8198, indicating potential security breaches, logged multiple
-times between 8:39 AM and 9:04 AM. Multiple certificate-related errors
-occurred simultaneously at 8:44:55 AM, indicating systemic issues.
-Volume Shadow Copy Service error recorded at 9:02:26 AM, indicating
-interconnected issues.
+ Event ID 8198, indicating potential security breaches, logged multiple times between 8:39 AM and 9:04 AM. Multiple certificate-related errors occurred simultaneously at 8:44:55 AM, indicating systemic issues. Volume Shadow Copy Service error recorded at 9:02:26 AM, indicating interconnected issues.
 >
 3\. Draft a Troubleshooting Report:
 > 
@@ -90,8 +84,7 @@ Page **4** of **7**
 **Part 4: Reflection Questions**
 
 1. What are the most common causes of a **503 Service Unavailable** error?
-    A 503 error is often caused by server overload, maintenance, misconfigured settings, application
-layer issues, and network problems preventing communication with other services.
+    A 503 error is often caused by server overload, maintenance, misconfigured settings, application layer issues, and network problems preventing communication with other services.
 
 2. How would you **monitor login attempts** to detect potential security threats?
 
