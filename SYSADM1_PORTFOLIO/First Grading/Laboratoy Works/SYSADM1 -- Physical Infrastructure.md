@@ -1,9 +1,8 @@
 ![image](https://github.com/user-attachments/assets/a6481af3-9327-4155-a60e-34264a4f896e)
 
-
 # SYSADM1 -- Physical Infrastructure {#sysadm1-physical-infrastructure .list-paragraph}
 
-# Instructions:  {#instructions .list-paragraph}
+# Instructions:
 
 Answer the following questions based on Week 3 Lecture notes.
 
