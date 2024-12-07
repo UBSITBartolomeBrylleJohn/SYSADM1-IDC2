@@ -47,8 +47,8 @@ o Save it as default.html or your preferred name
 Page **3** of **5**
 
 5\. Test the Web Server:\
-o Open a web browser and enter the URL of your website (e.g.,
-http://localhost). o You should see your web page displayed.
+o Open a web browser and enter the URL of your website (e.g.,http://localhost). 
+o You should see your web page displayed.
 
 Page **4** of **5**
 
