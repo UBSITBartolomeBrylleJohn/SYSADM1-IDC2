@@ -7,8 +7,7 @@ Requirement:
 
 • A virtual machine running Linux and Windows OS\
 Task Instructions:\
-1. Install IIS by adding it as a role, select necessary features,
-include monitoring tools
+1. Install IIS by adding it as a role, select necessary features, include monitoring tools
 
 ![image](https://github.com/user-attachments/assets/49f5f514-3f5c-488b-8419-1c2751647596)
 
