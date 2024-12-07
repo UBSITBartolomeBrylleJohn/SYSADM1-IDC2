@@ -13,6 +13,7 @@ Print Services\
 ![image](https://github.com/user-attachments/assets/be610db8-4a1e-44e3-b6c2-2925831206da)
 
 3\. Install Print Services Role
+
 ![image](https://github.com/user-attachments/assets/63b1960c-ef31-443e-8d9a-94240ffd9ff8)
 
 4\. Search the internet for any printer installer and convert it to iso
