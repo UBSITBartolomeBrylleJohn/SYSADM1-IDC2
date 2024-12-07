@@ -4,8 +4,10 @@ SYSADM1 -- Monitoring Print Services in Windows Server 2019
 
 Requirement:
 
-• A virtual machine running Linux and Windows OS Part 1: Setting Up
-Print Services
+• A virtual machine running Linux and Windows OS 
+
+Part 1: Setting Up Print Services
+
 1\. Install and configure **print.srv** domain
 ![image](https://github.com/user-attachments/assets/b7287980-bfd9-419d-80ce-45892fdc4d42)
 
