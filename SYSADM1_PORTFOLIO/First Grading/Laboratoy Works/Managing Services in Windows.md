@@ -4,11 +4,7 @@ SYSADM1 -- Managing Services in Windows\
 Requirement:\
 • A virtual machine running Linux and Windows OS
 
-**Services** are background processes that run independently of user
-interactions in Windows. They provide essential system functions, such
-as network connectivity, printing, and time synchronization. This lab
-will guide you through the process of managing services using the
-Services app.
+**Services** are background processes that run independently of user interactions in Windows. They provide essential system functions, such as network connectivity, printing, and time synchronization. This lab will guide you through the process of managing services using the Services app.
 
 Instructions:\
 1. Open the Start menu and search for \"Services\"
@@ -22,7 +18,6 @@ Display Name, Status, and Startup type.
 \"Restart\". Fill out the table below
 
 ![image](https://github.com/user-attachments/assets/77ade0aa-98f4-43ff-9026-db7a61935d4d)
-
 
 Page **2** of **7**
 
@@ -49,7 +44,7 @@ be added as a new service later on. Refer to the batch file code below.
 
 7\. Save the batch file in Z:\\lastname_timer.bat\
 
-8. Use the sc command to add timer.bat service in the command line
+8\. Use the sc command to add timer.bat service in the command line
 interface. *sc create BatchTimerService binPath=
 \"path_to_your_batch_file.bat\" start= auto* *net start
 BatchTimerService*
