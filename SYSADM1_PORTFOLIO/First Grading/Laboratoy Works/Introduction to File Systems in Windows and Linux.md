@@ -50,9 +50,6 @@
 
 10. **Rename the copied file:** Rename the copied file to \"data.txt.
 
-> ![](vertopal_dd376dbe88ee41ab817597336f1acb96/media/image6.png){width="6.188363954505687in"
-> height="0.2500349956255468in"}
-
 11. Create a folder named \"LabFiles\" with subfolders for each file
     type. Use the internet for the resources of the files listed below.
 
