@@ -13,17 +13,23 @@ include monitoring tools
 ![image](https://github.com/user-attachments/assets/49f5f514-3f5c-488b-8419-1c2751647596)
 
 2. Create a website by opening IIS Manager
+   
     o Right-click on the server’s name and select Internet Information Services Manager.
+   
     o Right-click on Sites and select Add Website.
-    o Enter a name, description, physical path (where your website files will reside), IP address, port,
-    and host name.
+   
+    o Enter a name, description, physical path (where your website files will reside), IP address, port, and host name.
 
 ![image](https://github.com/user-attachments/assets/11d07b34-139e-4ffb-9dc3-60ec76918888)
 
 3\. Configure the Website:
-    o Right-click on your website and select Edit.
-    o Set the Default Document to the name of your main HTML file >default.html
-    o Configure other settings as needed (e.g., SSL certificates, authentication)
+
+o Right-click on your website and select Edit.
+
+ o Set the Default Document to the name of your main HTML file >default.html
+    
+o Configure other settings as needed (e.g., SSL certificates, authentication)
+    
 Page **2** of **5**
 
 ![image](https://github.com/user-attachments/assets/102ff676-40a4-42f9-9d13-102a074fc06c)
