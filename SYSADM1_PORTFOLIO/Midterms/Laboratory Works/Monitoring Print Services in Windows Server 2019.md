@@ -25,58 +25,54 @@ Print Services\
 Page **2** of **4**
 
 Part 2: Monitoring Print Services
-> Objective: Familiarize yourself with monitoring tools available in
-> Windows Server 2019.
+Objective: Familiarize yourself with monitoring tools available in
+Windows Server 2019.
+
+1\. Event Viewer:
+
+ o Open Event Viewer (run eventvwr.msc).
+
+ o Navigate to Applications and Services Logs \> Microsoft \> Windows \> PrintService.
 >
-> 1\. Event Viewer:
+ o Review logs for print jobs, errors, and warnings.
 >
-> o Open Event Viewer (run eventvwr.msc).
+2\. Performance Monitor:
 >
-> o Navigate to Applications and Services Logs \> Microsoft \> Windows
-> \> PrintService.
+ o Open Performance Monitor (run perfmon).
 >
-> o Review logs for print jobs, errors, and warnings.
+ o In the left pane, expand Data Collector Sets \> System.
 >
-> 2\. Performance Monitor:
+ o Right-click System Performance and select Start.
 >
-> o Open Performance Monitor (run perfmon).
+ o Monitor performance metrics related to print services.
 >
-> o In the left pane, expand Data Collector Sets \> System.
+ 3\. Using Print Management Console:
 >
-> o Right-click System Performance and select Start.
+ o Open Print Management from Server Manager.
 >
-> o Monitor performance metrics related to print services.
+ o View active print jobs and their status.
 >
-> 3\. Using Print Management Console:
+ o Use the Printers node to check the status of all printers.
+
+Part 3: Exploring Third-Party Monitoring Tools
 >
-> o Open Print Management from Server Manager.
+1\. Research at least two third-party print monitoring tools
 >
-> o View active print jobs and their status.
+ o Consider factors such as features, pricing, and compatibility with Windows Server 2019.
 >
-> o Use the Printers node to check the status of all printers.
+2\. Install and Configure:
 >
-> Part 3: Exploring Third-Party Monitoring Tools
+ o Choose one of the tools to install in your environment.
 >
-> 1\. Research at least two third-party print monitoring tools
+ o Follow the installation instructions provided by the tool's documentation.
 >
-> o Consider factors such as features, pricing, and compatibility with
-> Windows Server 2019.
+ o Configure it to monitor your print services.
 >
-> 2\. Install and Configure:
+3\. Test and Report Findings:
 >
-> o Choose one of the tools to install in your environment.
+ o Generate a report or dashboard from the tool.
 >
-> o Follow the installation instructions provided by the tool\'s
-> documentation.
->
-> o Configure it to monitor your print services.
->
-> 3\. Test and Report Findings:
->
-> o Generate a report or dashboard from the tool.
->
-> o Analyze the collected data (e.g., print volume, errors, user
-> activity).
+ o Analyze the collected data (e.g., print volume, errors, user activity).
 >
 ![image](https://github.com/user-attachments/assets/63a20cd0-a72a-45d7-9d53-81600ff4c521)
 
