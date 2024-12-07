@@ -51,7 +51,6 @@ interconnected issues.
 3\. Draft a Troubleshooting Report:
 > 
    o Based on the events found, create a short report with the following sections:
-+-----------------------------------+-----------------------------------+
 
 **Report Structure**
 
@@ -109,7 +108,7 @@ detecting possible dangers such as brute-force or illegal access.
 administrators?
     Event Viewer logs are important for administrators to monitor security events, detect unauthorized
 access, fix problems, and improve security by identifying issues and possible breaches.
-+-----------------------------------+-----------------------------------+
+
 
 Page **6** of **7**
 
