@@ -103,9 +103,8 @@ Page **5** of **7**
 then check the Security event log for unsuccessful logins. This will give useful information for
 detecting possible dangers such as brute-force or illegal access.
 
-3. Why is **monitoring logs** in Event Viewer important for
-
-administrators?
+3. Why is **monitoring logs** in Event Viewer important for administrators?
+   
     Event Viewer logs are important for administrators to monitor security events, detect unauthorized
 access, fix problems, and improve security by identifying issues and possible breaches.
 
