@@ -49,6 +49,7 @@ Page **2** of **7**
 > interconnected issues.
 >
 > 3\. Draft a Troubleshooting Report:
+> 
 >    o Based on the events found, create a short report with the following sections:
 +-----------------------------------+-----------------------------------+
 
@@ -102,9 +103,9 @@ Page **4** of **7**
 
 > 1\. What are the most common causes of a **503 Service Unavailable**
 > error?
+> 
 >     A 503 error is often caused by server overload, maintenance, misconfigured settings, application
 layer issues, and network problems preventing communication with other services.
-+-----------------------------------+-----------------------------------+
 
 > 2\. How would you **monitor login attempts** to detect potential
 > security threats?
@@ -112,11 +113,13 @@ layer issues, and network problems preventing communication with other services.
 Page **5** of **7**
 
 ![image](https://github.com/user-attachments/assets/8d343947-cb69-4fda-84c2-7045e068c90d)
+
    To monitor login attempts in Server 2012, enable auditing for security events in the Security Policy
 then check the Security event log for unsuccessful logins. This will give useful information for
 detecting possible dangers such as brute-force or illegal access.
 
 3\. Why is **monitoring logs** in Event Viewer important for
+
 administrators?
     Event Viewer logs are important for administrators to monitor security events, detect unauthorized
 access, fix problems, and improve security by identifying issues and possible breaches.
